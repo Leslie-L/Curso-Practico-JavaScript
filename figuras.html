@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+</head>
+<body>
+    <h1>Figuras Geometricas</h1>
+    <section>
+        <div>
+            <h2>Cuadrado</h2>
+            <label for="inputLadoCuadraro">Lado del cuadrado</label>
+            <input id="inputLadoCuadraro" type="number">
+            <h3 id="resultadoCuadrado">Resultado: </h3>
+            <button type="button" onclick="calcularAreaCuadrado()">Calcular Area</button>
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular Perimetro</button>
+        </div>
+
+        <div>
+            <h2>Triangulo</h2>
+            <label for="inputLado1">Lado1</label>
+            <input id="inputLado1" type="number">
+
+            <label for="inputLado2">Lado2</label>
+            <input id="inputLado2" type="number">
+
+            <label for="inputBase">Base</label>
+            <input id="inputBase" type="number">
+
+            <label for="inputAltura">Altura</label>
+            <input id="inputAltura" type="number">
+
+            <h3 id="resultadoTriangulo">Resultado: </h3>
+            <button type="button" onclick="calcularAreaTriangulo()">Calcular Area</button>
+            <button type="button" onclick="calcularPerimetroTriangulo()">Calcular Perimetro</button>
+            <button type="button" onclick="calcularAlturaTriangulo()">Altura de Triangulo Isosceles</button>
+            
+        </div>
+        
+        <div>
+            <h2>Circulo</h2>
+            <label for="inputRadio">Radio</label>
+            <input id="inputRadio" type="number">
+            <h3 id="resultadoCirculo">Resultado: </h3>
+            <button type="button" onclick="calcularAreaCirculo()">Calcular Area</button>
+            <button type="button" onclick="calcularPerimetroCirculo()">Calcular Perimetro</button>
+            
+        </div>
+        
+        
+    </section>
+
+
+    <script src="/figuras.js"></script>
+</body>
+</html>
